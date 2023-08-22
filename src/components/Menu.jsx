@@ -7,13 +7,16 @@ function Menu() {
           <Link to={"/"}>For you</Link>
         </li>
         <li className="item-menu">
-          <Link>Following</Link>
+          <Link to={"/page01"}>Following</Link>
         </li>
         <li className="item-menu">
-          <Link>JavaScript</Link>
+          <Link to={"/Page02"}>JavaScript</Link>
         </li>
         <li className="item-menu">
-          <Link>Design</Link>
+          <Link to={"/Page03"}>Design</Link>
+        </li>
+        <li className="item-menu">
+          <Link to={"/React"}>React</Link>
         </li>
       </ul>
     </div>

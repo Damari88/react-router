@@ -11,4 +11,4 @@ function Page03() {
   );
 }
 
-export { Page03 as Page02 };
+export { Page03};
